@@ -8,4 +8,7 @@ Given an image, it will return the most probable sequence of words (sentence) de
     numpy==1.11.2
     tensorflow==1.1.0
     pandas==0.16.2
-    Pillow
+    
+# Dataset
+    
+The dataset used is flickr8k. You can request the data here(https://forms.illinois.edu/sec/1713398). An email for the links of the data to be downloaded will be mailed to your id. Extract the images in Flickr8K_Data and the text data in Flickr8K_Text.

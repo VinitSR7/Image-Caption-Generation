@@ -29,7 +29,7 @@ The dataset used is flickr8k. You can request the data here(https://forms.illino
 > https://arxiv.org/pdf/1703.09137.pdf Depending upon the choice, your structure of model will change.
 
 ### Extracting image features
-1. To extract image features, we can use CNN network. Either we can make our own CNN network or we can use concept of transfer learning. There are a lot of pre-trained models available to extract image features. For example, VGG16 model contains 16 layers which is used to classify image in 1 out of 1000 classes. Last layer of this model is used for classification, so we can capture the output of second last layer (which is a vector of size 4096 for a single image) as it will represent image features in form of numbers without classifying them in classes.
+1. To extract image features, we can use CNN network. Either we can make our own CNN network or we can use concept of transfer learning. There are a lot of pre-trained models available to extract image features. For example, InceptionV3 model contains 48 layers which is used to classify image in 1 out of 1000 classes. Last layer of this model is used for classification, so we can capture the output of second last layer (which is a vector of size 2048 for a single image) as it will represent image features in form of numbers without classifying them in classes.
 2. So, we can pass each image in our dataset through this network and store the results corresponding to image id in a file.
 
 ### Providing text features

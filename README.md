@@ -44,10 +44,13 @@ The neural networks that changes any input in its features representation i.e ve
 
 The combination of layers/neural network that takes feature representation provided by encoder as its own input and predicts the next word, is known as decoder.
 
-# ...
 ### Caption Generation.
 
 For Caption Generation i used Gready Search approach, you can use Beam search approach for better Results.
+
+### Results
+<img src="https://github.com/VinitSR7/Image-Caption-Generation/blob/master/result.jpg?raw=true"> </img> <br>
+
 # Research papers and resources to follow
 > 1. https://arxiv.org/pdf/1411.4555.pdf
 > 2. https://arxiv.org/pdf/1412.2306.pdf
